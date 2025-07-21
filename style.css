@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+menu{
+background: #fff;
+height: 80px;
+width: 100%;
+border-radius: 5px;
+}
+.menu ul{
+   display: inline-flex;
+    margin: 50px;
+ }
+.menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color:black;
+    cursor:pointer;
+}
+.logo img{
+    width: 50px;
+    margin-top: -7px;
+    margin-right: 48px;
+
+}    
+ .home{
+    color:rgb(16, 33, 16) !important;
+ }   
+.join-btn{
+    top:40px;
+    right:80px;
+    position: absolute;
+    text-decoration: none;
+    color: #f6f5f4fe;
+    border:5px solid transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(#000),radial-gradient(circle at top left,#000);
+    background-color: black;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}    
+.signin-btn{
+    top:40px;
+    right: 180px;
+    position: absolute;
+    text-decoration: none;
+    color: #000;
+    border:5px solid transparent;
+    border-radius: 40px;
+    background-image: linear-gradient(#fff),radial-gradient(circle at top left,#000);
+    background-color: #ffff;
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+
+}  
+.split-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+}
+
+/* Left side for image */
+.left-pane {
+  flex: 1;
+  background-color: #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.left-pane img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.left-pane {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Right side for text */
+.right-pane {
+  flex: 1;
+  background-color: #fff;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.right-pane img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.right-pane h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.right-pane p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+@media (max-width: 768px) {
+  .split-container {
+    flex-direction: column;
+  }
+
+  .left-pane, .right-pane {
+    flex: none;
+    height: 50vh;
+  }
+}
