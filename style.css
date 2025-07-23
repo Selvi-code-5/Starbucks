@@ -3,25 +3,20 @@
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-body {
-      margin: 0;
+.container{
+  width:100;
+  height:100;
      background-color: #fff;
       color: black;
         }
-menu{
-  z-index: 3;
-background: #fff;
-height: 80px;
-width: 100%;
-border-radius: 5px;
-}
+
 .menu ul{
    display: inline-flex;
     margin: 50px;
  }
 .menu ul li{
     list-style: none;
-    margin: 0 20px;
+    margin: 0px 20px;
     color:black;
     cursor:pointer;
 }
@@ -64,9 +59,7 @@ border-radius: 5px;
 }  
 .split-container {
   display: flex;
-   align-items: center;
-  justify-content: center;
-  
+   height:100vh;
 }
 
 .left-pane {
@@ -167,7 +160,7 @@ border-radius: 5px;
     }
 
     .left-side h1 {
-      font-size: 2em;
+      font-size: 4em;
       margin-bottom: 20px;
     }
 
@@ -183,7 +176,7 @@ border-radius: 5px;
 
     .right-side {
       flex: 1;
-      background-color: #ddd;
+      background-color: #006242;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -194,3 +187,60 @@ border-radius: 5px;
       height: auto;
       object-fit: cover;
     }
+
+    .split-container2 {
+      display: flex;
+      height: 100vh;
+    }
+
+    .left-side {
+      flex: 1;
+      background-color: #006242;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .right-side h1 {
+      font-size: 4em;
+      margin-bottom: 20px;
+    }
+
+    .right-side button {
+      padding: 10px 20px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #f7f0e4;
+      color: #006242;
+      border: 2px solid #006242;
+      border-radius: 4px;
+    }
+
+    .right-side {
+      flex: 1;
+      background-color: #f7f0e4;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px;
+      
+    }
+    .left-side img {
+      max-width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+    .split-container3 {
+      display: flex;
+      height: 100vh;
+    }
+    .center-text {
+  height: 100vh; /* Full screen height */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center;     /* Vertical center */
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
