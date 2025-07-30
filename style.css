@@ -1,24 +1,49 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
+    
 }
 .container{
-  width:100;
-  height:100;
-     background-color: #fff;
-      color: black;
-        }
+ width:1500px;
+ padding: 1px 1px;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+  margin-top: -20px;
+  margin-bottom: -30px;
+  margin-left:-30px;
+  margin-right:30px;
+      
+}
+header {
+  background: #ffffff;
+  border-bottom: 2px, #9a1e2a;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 5px;
+  padding-left: 5px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e3932;
+  font-weight: bold;
+}
 
 .menu ul{
    display: inline-flex;
     margin: 50px;
- }
+ } 
 .menu ul li{
     list-style: none;
-    margin: 0px 20px;
+    margin: 0px 10px;
+    padding-left: -5px;
     color:black;
     cursor:pointer;
+    font-weight: bold;
 }
 .logo img{
     width: 50px;
@@ -28,15 +53,22 @@
 }    
  .home{
     color:rgb(16, 33, 16) !important;
- }   
+ } 
+ .location{
+  justify-content: flex-end;
+  text-decoration: none;
+  margin-left: 450px;
+  font-size: 13px;
+  font-weight: bold;
+ }  
 .join-btn{
-    top:40px;
-    right:80px;
+    top:25px;
+    right:60px;
     position: absolute;
-    text-decoration: none;
+    font-size: 13px;
     color: #f6f5f4fe;
     border:5px solid transparent;
-    border-radius: 40px;
+    border-radius: 50px;
     background-image: linear-gradient(#000),radial-gradient(circle at top left,#000);
     background-color: black;
     background-origin: border-box;
@@ -44,14 +76,23 @@
 
 }    
 .signin-btn{
-    top:45px;
-    right: 180px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 20px;
+    font-weight: bold;
+    top:20px;
+    text-align: center;
+    margin-right:1.6rem !important;
+    box-sizing: inherit;
+    cursor: pointer;
+    letter-spacing: -0.01em;
+    right: 150px;
+    line-height: 1.2;
     position: absolute;
-    text-decoration: none;
+    font-size: 13px;
     color: #000;
-    border:2px solid transparent;
-    border-radius: 40px;
-    background-image: linear-gradient(#fff),radial-gradient(circle at top left,#000);
+    border-radius: 50px;
     background-color: #ffff;
     background-origin: border-box;
     background-clip: content-box, border-box;
@@ -61,31 +102,18 @@
   display: flex;
    height:100vh;
 }
-
-.left-pane {
-  flex: 1;
-  width: calc(100% * (6 / 12));
-  background-color: #32462f;
-  align-items: center;
-  justify-content: center !important;
-  overflow: hidden;
-  box-sizing: inherit;
-}
-@media (min-width: 768px) {
-    .flex.justify-center.items-center.md-size6of12 {
-    }
-}
-
-.left-pane img {
-  width: 100%;
+.Raspberry img{
+width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.right-pane {
-  flex:1;
+   
+  }
+
+.Raspberry-text{
+   flex:1;
   width: 41%;
-  background-color: #2a543b;
-  color: #ffffff;
+  background-color: #f9eedf;
+  color: #006342;
   padding: 50px;
   display: flex;
   flex-direction: column;
@@ -94,15 +122,33 @@
   font-size: 1.9rem;
   line-height: 1;
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
     .flex.justify-center.items-center.md-size6of12 {
+    }
+}*/
+
+.strato-text {
+  flex:1;
+  width: 41%;
+  background-color: #f9eedf;
+  color: #006342;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+/*@media (min-width: 768px) {
+    .flex.justify-center.items-center.md-size6of {
     }
 }
 @media (min-width: 768px) {
     .textBlockGutter {
         padding: 0 var(--space-4);
     }
-}
+}*/
 
 
 .right-pane h1 {
@@ -262,7 +308,7 @@
 display: flex;
 flex-direction: column;
 margin-right: 1rem;
-
+margin-left: 1rem;
 }
 .footer-heading h2{
   margin-bottom: 2rem;
@@ -276,4 +322,5 @@ margin-right: 1rem;
 .footer-heading a:hover{
   color:red;
   transition: 0.3s ease-out;
-}
+}   
+
