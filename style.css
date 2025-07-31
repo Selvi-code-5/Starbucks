@@ -126,7 +126,10 @@ width: 100%;
     .flex.justify-center.items-center.md-size6of12 {
     }
 }*/
-
+.split-container1 {
+      display: flex;
+      height: 100vh;
+    }
 .strato-text {
   flex:1;
   width: 41%;
@@ -140,6 +143,12 @@ width: 100%;
   font-size: 1.9rem;
   line-height: 1;
 }
+.strato-img img{
+width: 100%;
+  height: 100%;
+  object-fit: cover;
+   
+  }
 /*@media (min-width: 768px) {
     .flex.justify-center.items-center.md-size6of {
     }
@@ -151,7 +160,7 @@ width: 100%;
 }*/
 
 
-.right-pane h1 {
+.strato h1 {
   text-decoration-color: #ffffff;
   font-size: 3.8rem;
   margin-bottom: 20px;
@@ -177,7 +186,122 @@ width: 100%;
 .view-btn:hover {
       background-color: rgba(10, 10, 10, 0.1); /* Light hover effect */
     }
-
+.split-container2 {
+    display: flex;
+    height: 100vh;
+    }
+.handcrafted-drink-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+.handcrafted-drink-text{
+    flex:1;
+  width: 41%;
+  background-color: #f9eedf;
+  color: #006342;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+.handcrafted-drink-text h1 {
+  text-decoration-color: #ffffff;
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.split-container3 {
+    display: flex;
+    height: 100vh;
+    }
+.private-concert-img img{
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.private-concert{
+  flex:1;
+  width: 41%;
+  background-color: #f9eedf;
+  color: #006342;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+.private-concert h1 {
+  text-decoration-color: #ffffff;
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.split-container4 {
+    display: flex;
+    height: 100vh;
+    }
+.summer-drink img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.summer-drink-text{
+ flex:1;
+  width: 41%;
+  background-color: #f9eedf;
+  color: #006342;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+.summer-drink-text h1{
+text-decoration-color: #ffffff;
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.split-container5 {
+    display: flex;
+    height: 100vh;
+    }
+.nigerian-drink-img img{
+   width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.nigerian-drink-text{
+  flex:1;
+  width: 41%;
+  background-color: #f9eedf;
+  color: #006342;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.9rem;
+  line-height: 1;
+}
+.nigerian-drink-text h1 {
+  text-decoration-color: #ffffff;
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+}
      .social-icons {
       text-align: left;
       margin-top:1000px;
@@ -190,25 +314,9 @@ width: 100%;
       text-decoration: none;
     }   
 
-.split-container1 {
-      display: flex;
-      height: 100vh;
-    }
 
-    .left-side {
-      flex: 1;
-      background-color: #f7f0e4;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 40px;
-    }
 
-    .left-side h1 {
-      font-size: 4em;
-      margin-bottom: 20px;
-    }
+       
 
     .left-side button {
       padding: 10px 20px;
@@ -219,69 +327,7 @@ width: 100%;
       border: 2px solid #006242;
       border-radius: 4px;
     }
-
-    .right-side {
-      flex: 1;
-      background-color: #006242;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .right-side img {
-      max-width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-
-    .split-container2 {
-      display: flex;
-      height: 100vh;
-    }
-
-    .left-side {
-      flex: 1;
-      background-color: #006242;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    .right-side h1 {
-      font-size: 4em;
-      margin-bottom: 20px;
-    }
-
-    .right-side button {
-      padding: 10px 20px;
-      font-size: 1em;
-      cursor: pointer;
-      background-color: #f7f0e4;
-      color: #006242;
-      border: 2px solid #006242;
-      border-radius: 4px;
-    }
-
-    .right-side {
-      flex: 1;
-      background-color: #f7f0e4;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      padding: 40px;
-      
-    }
-    .left-side img {
-      max-width: 100%;
-      height: auto;
-      object-fit: cover;
-    }
-    .split-container3 {
-      display: flex;
-      height: 100vh;
-    }
-    .center-text {
+.center-text {
   max-width: 700px; /* Full screen height */
   margin:auto;
   line-height: 2;
