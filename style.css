@@ -6,6 +6,13 @@
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
 }
 
+/* Prevent horizontal overflow */
+html, body {
+  overflow-x: hidden;
+  width: 100%;
+  max-width: 100%;
+}
+
 /* 2. Responsive Container */
 .container {
   width: 100%;
