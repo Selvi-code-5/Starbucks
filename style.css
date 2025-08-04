@@ -110,7 +110,11 @@ nav a.active {
 .menu-page-container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem 1rem;
+  padding: 10px 20;
+  border-radius:5px;
+  border-bottom: 2px solid #ccc;
+  border-width: 100%;
+  
 }
 
 .menu-navigation {
@@ -289,9 +293,6 @@ nav a.active {
   background: #004d32;
 }
 
-.handcrafted-drink-img {
-
-}
 .footer-container {
   background: #fff;
   padding: 40px 20px;
@@ -441,16 +442,7 @@ nav a.active {
     gap: 1rem;
   }
   
-  .menu-grid, .features-grid, .favourites-grid {
-    grid-template-columns: 1fr;
-  }
-  
-  .order-item {
-    flex-direction: column;
-    text-align: center;
-    gap: 0.5rem;
-  }
-}
+ }
 @media (max-width: 600px) {
   .container {
     padding: 0.5rem;
@@ -487,13 +479,6 @@ nav a.active {
     font-size: 2rem;
   }
   
-  .menu-item {
-    font-size: 1rem;
-    padding: 0.4rem 0.8rem;
-  }
   
-  .menu-item-card, .feature-card, .favourite-item {
-    padding: 1rem;
-  }
 }
        
